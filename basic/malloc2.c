@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 /**
  * 동적 메모리 할당으로 알파벳 출력하기
  */
@@ -12,7 +11,7 @@ int main()
   pc = (char *) malloc(100 * sizeof(char));
   if(pc == NULL)
   {
-    printf("동적 메모리 할당 실패");
+    printf("dynamic memory fail");
     exit(1);
   }
 
